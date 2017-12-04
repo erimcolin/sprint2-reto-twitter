@@ -1,0 +1,60 @@
+body {
+  background-image: url("assets/images/image-1.jpg");
+  background-size: 100%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+nav {
+  margin: -9px;
+}
+
+nav h1 {
+  background-color: #6ad2f3;
+  text-align: center;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+
+section {
+  margin: 10px 80px;
+}
+
+.seccion1 {
+  display: inline-block;
+  width: 400px;
+  padding: 18px;
+  background-color: white;
+  color: black;
+  vertical-align: top;
+}
+
+.seccion1 #codigo {
+  color: #668a9b;
+  font-weight: bold;
+}
+
+.seccion2 {
+  display: inline-block;
+  width: 302px;
+  margin-left: 30px;
+}
+
+.seccion2 #enviarTexto {
+  padding: 10px;
+  background-color: #6ad2f3;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.seccion2 #contadorDeCaracteres {
+  display: inline-block;
+  margin-left: 193px;
+}
+
+main {
+  background-color: white;
+  width: 400px;
+}
