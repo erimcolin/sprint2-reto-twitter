@@ -11,34 +11,29 @@
   <body>
       <nav>
         <h1> <i class="fa fa-twitter" aria-hidden="true"></i> Twitter</h1>
-
       </nav>
       <section>
         <div class="section1">
           <h2>Reto Twitter</h2>
-          <p>Hola! <br>Soy Front-end developer jr</p>
+          <p>Hola!</p>
+          <p>Soy Front-end developer jr</p>
           <hr>
           <p id="codigo">CÓDIGO</p>
         </div>
         <div class="section2">
           <textarea name="text"  id="text" rows="1" cols="40" placeholder="Qué está pasando?"></textarea>
-          <hr>
-          <br>
-          <input id="sent-text" type="submit" name="" value="TWEET">
-          <input id="contadorDeCaracteres" type="submit" name="caracteres" value="140">
+          <div class="inputs">
+            <input id="sent-text" type="submit" name="" value="TWEET">
+            <input id="characteres" type="submit" name="characteres" value="140">
+          </div>
         </div>
       </section>
       <main>
-        <div id="contenedor">
-        </div>
-        <div id="mostrarHora">
-          <script type="text/javascript">
-            mostrarHora();
-          </script>
+        <div id="container">
+          <p id="showHour"></p>
         </div>
       </main>
       <script type="text/javascript" src="app.js"></script>
       <script type="text/javascript" src="moment.js"></script>
-
   </body>
 </html>
