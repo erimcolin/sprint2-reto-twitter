@@ -82,8 +82,12 @@ textarea {
 }
 
 #contadorDeCaracteres {
-  padding: 5px 25px;
-  background-color: none;
+  background: none;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  font-size: 20px;
+  color: blue;
 }
 
 .content {
