@@ -1,34 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Twitter</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/af.js"></script>
   </head>
   <body>
       <nav>
-        <h1>Twitter</h1>
+        <h1> <i class="fa fa-twitter" aria-hidden="true"></i> Twitter</h1>
+
       </nav>
       <section>
-        <div class="seccion1">
+        <div class="section1">
           <h2>Reto Twitter</h2>
           <p>Hola! <br>Soy Front-end developer jr</p>
           <hr>
           <p id="codigo">CÓDIGO</p>
         </div>
-        <div class="seccion2">
-          <textarea name="texto"  id="textoAInsertar" rows="7" cols="40" placeholder="Qué está pasando?"></textarea>
+        <div class="section2">
+          <textarea name="text"  id="text" rows="1" cols="40" placeholder="Qué está pasando?"></textarea>
+          <hr>
           <br>
-          <input id="enviarTexto" type="submit" name="" value="TWEET">
-          <input id="contadorDeCaracteres" type="button" name="caracteres" value="140">
+          <input id="sent-text" type="submit" name="" value="TWEET">
+          <input id="contadorDeCaracteres" type="submit" name="caracteres" value="140">
         </div>
       </section>
       <main>
         <div id="contenedor">
         </div>
+        <div id="mostrarHora">
+          <script type="text/javascript">
+            mostrarHora();
+          </script>
+        </div>
       </main>
       <script type="text/javascript" src="app.js"></script>
-      <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/af.js"></script>"> -->
+      <script type="text/javascript" src="moment.js"></script>
+
   </body>
 </html>
